@@ -35,6 +35,10 @@ h1 {
     color: rgb(0, 166, 255);
 }
 
+.info {
+    margin: 10px;
+}
+
 .flex-container {
     width: 70%;
     margin: auto;
