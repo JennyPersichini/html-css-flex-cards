@@ -15,7 +15,8 @@ h1 {
 }
 
 .subtitle {
-    margin: 40px;
+    margin: 40px auto;
+    width: 70%;
 }
 
 .card {
@@ -47,4 +48,26 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 60px 20px;
+}
+
+header {
+    background-color:  rgb(6, 2, 36);
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+  }
+  
+  .link-flex {
+    display: flex;
+    align-items: center;
+  }
+  
+.link {
+    width: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
